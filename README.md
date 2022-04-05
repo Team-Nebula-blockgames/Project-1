@@ -1,16 +1,10 @@
 # How to contribute
 
-### Fork the repo
-click on the fork button for this project
-
-### Clone the developmet branch of forked repo
-git clone -b development 'url of forked repo'
+### Clone the repo
+git clone -b development https://github.com/Team-Nebula-blockgames/Project-1
 
 ### Move into cloned folder
 cd Project-1
-
-### add a new remote
-git remote add upstream https://github.com/Team-Nebula-blockgames/Project-1
 
 ### Install dependencies
 yarn install
@@ -23,13 +17,11 @@ yarn install
 # Pull latest changes and push changes to repo(make sure your in Project-1 directory)
 
 ### Always pull before making changes
-git pull upstream development
+git pull origin
 
-### Push to the your forked repo (don't forget to commit first)
+### Push to the repo whenyour done with your changes(don't forget to commit first)
 git push origin
 
-### make a pull request
-after pushing changes to your forked repo you should see a compare and pull button in green
 
 # Scripts(make sure your in Project-1 directory)
 ### To run local blockchain
