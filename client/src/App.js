@@ -7,6 +7,8 @@ import Box from "@mui/material/Box";
 import NavBar from "./components/navbar";
 import SideBar from "./components/sidebar";
 
+//a comment
+
 function App() {
   return (
     <Box sx={{ flexGrow: 1 }}>
