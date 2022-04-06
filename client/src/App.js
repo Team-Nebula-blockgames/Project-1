@@ -6,12 +6,16 @@ import "./App.css";
 import Box from "@mui/material/Box";
 import NavBar from "./components/navbar";
 import SideBar from "./components/sidebar";
+import Admin from "./components/modals/Admin";
+import Reward from "./components/modals/Reward";
 
 function App() {
   return (
     <Box sx={{ flexGrow: 1 }}>
       <NavBar />
       <SideBar />
+      <Admin />
+      <Reward/>
     </Box>
   );
 }
