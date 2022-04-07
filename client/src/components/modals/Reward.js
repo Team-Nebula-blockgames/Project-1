@@ -24,7 +24,7 @@ export default function BasicModal({title, inputField}) {
 
   return (
     <div>
-      <Button onClick={handleOpen}>Open Reward modal</Button>
+      <Button onClick={handleOpen}>Send Reward</Button>
       <Modal
         open={open}
         onClose={handleClose}

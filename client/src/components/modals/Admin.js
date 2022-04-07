@@ -24,7 +24,7 @@ export default function BasicModal({title, inputField}) {
 
   return (
     <div>
-      <Button onClick={handleOpen}>Open Admin Modal</Button>
+      <Button onClick={handleOpen}>Add New Admin</Button>
       <Modal
         open={open}
         onClose={handleClose}

@@ -3,6 +3,8 @@ import Grid from "@mui/material/Grid/Grid";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
+import Admin from './modals/Admin'
+import Reward from "./modals/Reward";
 
 function NavBar(props) {
   return (
@@ -55,8 +57,8 @@ function NavBar(props) {
             </Typography>
           </Box>
         </Grid>
-        <Grid item>
-          <Button
+        <Grid item style={{display: 'flex'}}>
+          {/* <Button
             color="inherit"
             sx={{
               border: "2px solid #1949D9",
@@ -64,7 +66,9 @@ function NavBar(props) {
             }}
           >
             Add new Admin
-          </Button>
+          </Button> */}
+          <Admin />
+          <Reward/>
         </Grid>
       </Grid>
     </Box>
