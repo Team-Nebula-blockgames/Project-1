@@ -14,8 +14,8 @@ function App() {
     <Box sx={{ flexGrow: 1 }}>
       <NavBar />
       <SideBar />
-      <Admin />
-      <Reward/>
+      {/* <Admin /> */}
+      {/* <Reward/> */}
     </Box>
   );
 }

@@ -50,7 +50,7 @@ function SideBar(props) {
       </Typography>
       <SideBarItem text={"Admins"} icon={<Person />} />
       <SideBarItem text={"Notification"} icon={<Bell />} />
-      <SideBarItem text={"Reward"} icon={<Bell />} />
+      {/* <SideBarItem text={"Reward"} icon={<Bell />} /> */}
       <SideBarItem text={"System Health"} icon={<System />} />
     </Box>
   );
